@@ -1,0 +1,107 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+main{
+	display: block;
+	width: 100%:;
+	height: 100%;
+}
+
+#editor{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: lightblue;
+	text-align: center;
+	padding: 5px;
+}
+
+#info{
+	float: left;
+	height: 100vh;
+	width: 50%;
+	background: seagreen;
+	overflow-y: scroll;
+}
+
+#info-heading{
+	font-family: serif;
+	font-weight: 20px;
+	text-align: center;
+	border-bottom: 2px double black;
+	color: white;
+}
+
+.note{
+	background: wheat;
+	border: 1px solid black;
+	margin: 5px;
+	padding: 10px;
+}
+
+.note-header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding-bottom: 2px;
+	margin-bottom: 3px;
+}
+
+.note-body{
+	font-size: 1.3em;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.card-header{
+	display: flex;
+	position: top;
+	justify-content: space-between;
+	padding: 5px;
+	border: 2px double black;
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+
+button{
+	background: orange;
+	font-size: 15px;
+	padding: 5px;
+	font-family: sans-serif;
+	border: 1px solid black;
+	border-radius: 2px;
+	width: 90%;
+	margin-top: 10px;
+}
+
+.note-btn{
+	background: yellow;
+	font-size: 15px;
+	padding: 5px;
+	font-family: sans-serif;
+	border: 1px solid black;
+	border-radius: 2px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+#editor textarea{
+	width: 95%;
+	padding: 5px;
+	font-size: 2em;
+	border-radius: 5px;
+	border: 2px solid navy;
+	background: lightgreen;
+	color: black;
+}
+
